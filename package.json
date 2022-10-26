@@ -1,0 +1,19 @@
+{
+  "name": "social-media-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ash1VT/social-media-frontend.git"
+  },
+  "author": "Ash1VT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ash1VT/social-media-frontend/issues"
+  },
+  "homepage": "https://github.com/Ash1VT/social-media-frontend#readme"
+}
