@@ -1,0 +1,26 @@
+.container{
+    width: 100%;
+    height: 150px;
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    padding: 0;
+    margin: 0;
+}
+
+.spinner {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner>span{
+    height: 100%;
+}
