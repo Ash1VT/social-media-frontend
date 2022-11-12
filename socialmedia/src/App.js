@@ -1,16 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import AppRouter from './components/AppRouter';
+import './styles/App.css';
+import './styles/authorization.css'
+import CurrentUserStore from './stores/CurrentUserStore';
+import CurrentUserContext from './context/CurrentUserContext';
 
 function App() {
 
-  const handleClick = () => {alert("клик")}
+	const currentUserStore = new CurrentUserStore();
 
-  return (
-    <div className="container">
-      <button onClick={handleClick}>Click me</button>
-
-    </div>
-  );
+	return (
+		<CurrentUserContext.Provider value={{currentUserStore}}>
+			<AppRouter/>
+		</CurrentUserContext.Provider>
+	)	
 }
 
 export default App;
