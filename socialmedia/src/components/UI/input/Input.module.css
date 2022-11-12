@@ -1,0 +1,47 @@
+.inp-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.inp{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.inp:is(:focus, :valid){
+  border-bottom-color: #4070f4;
+}
+  
+.inp:is(:focus, :valid) ~ i{
+  color: #4070f4;
+}
+
+.error-inp-field{
+  position: relative;
+  height: 80px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.error-inp{
+  height: 50px;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-bottom: 2px solid red;
+  border-top: 2px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.error-text{
+  color: red;
+}
