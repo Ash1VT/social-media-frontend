@@ -9,5 +9,5 @@ export const privateRoutes = [
 
 export const publicRoutes = [
     {path: '/login', component: Login, exact: true},
-    {path: '/register', component: Registration, exact: true}
+    {path: '/registration', component: Registration, exact: true}
 ]

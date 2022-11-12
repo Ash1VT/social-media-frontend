@@ -11,7 +11,7 @@ const Login = () => {
 				<LoginForm/>
 				<div className="login-signup">
 					<span className="text">Not a member?</span>
-					<Link to='/register' className="text signup-link">Signup Now</Link>
+					<Link to='/registration' className="text signup-link">Signup Now</Link>
 				</div>
 			</div>
 		</div>
