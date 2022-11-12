@@ -1,0 +1,24 @@
+.btn-field{
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.btn {
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border-radius: 6px;
+  background-color: #4070f4;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  height: 100%;
+  width: 100%;
+}
+
+.btn:hover{
+  background-color: #265df2;
+}
